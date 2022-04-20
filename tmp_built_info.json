@@ -1,0 +1,753 @@
+{
+  "images": {
+    "hub.docker.local:5000/mobility-suite/ping-api": {
+      "version": 218,
+      "production_version": 213,
+      "production_tag": "v1.1.510"
+    },
+    "hub.docker.local:5000/mobility-suite/identity-email-sender": {
+      "version": 125,
+      "production_version": 121,
+      "production_tag": "v1.1.494"
+    },
+    "hub.docker.local:5000/mobility-suite/custom-viettel-authen-adapter": {
+      "version": 64,
+      "production_version": 58,
+      "production_tag": "v1.1.450"
+    },
+    "hub.docker.local:5000/mobility-suite/custom-viettel-sms-sending-adapter": {
+      "version": 42,
+      "production_version": 35,
+      "production_tag": "v1.1.450"
+    },
+    "hub.docker.local:5000/mobility-suite/admin-portal": {
+      "version": 1726,
+      "production_version": 1710,
+      "production_tag": "v1.1.506"
+    },
+    "hub.docker.local:5000/mobility-suite/access-api": {
+      "version": 495,
+      "production_version": 488,
+      "production_tag": "v1.1.506"
+    },
+    "hub.docker.local:5000/mobility-suite/access-trust-api": {
+      "version": 139,
+      "production_version": 134,
+      "production_tag": "v1.1.470"
+    },
+    "hub.docker.local:5000/mobility-suite/device-anti-virus-api": {
+      "version": 48,
+      "production_version": 45,
+      "production_tag": "v1.1.470"
+    },
+    "hub.docker.local:5000/mobility-suite/device-compliance-api": {
+      "version": 138,
+      "production_version": 133,
+      "production_tag": "v1.1.496"
+    },
+    "hub.docker.local:5000/mobility-suite/enrollment-api": {
+      "version": 216,
+      "production_version": 211,
+      "production_tag": "v1.1.497"
+    },
+    "hub.docker.local:5000/mobility-suite/device-api": {
+      "version": 365,
+      "production_version": 359,
+      "production_tag": "v1.1.501"
+    },
+    "hub.docker.local:5000/mobility-suite/event-log-api": {
+      "version": 164,
+      "production_version": 159,
+      "production_tag": "v1.1.494"
+    },
+    "hub.docker.local:5000/mobility-suite/pusher": {
+      "version": 34,
+      "production_version": 30,
+      "production_tag": "v1.1.450"
+    },
+    "hub.docker.local:5000/mobility-suite/identity-sms-sender": {
+      "version": 112,
+      "production_version": 110,
+      "production_tag": "v1.1.497"
+    },
+    "hub.docker.local:5000/mobility-suite/connect-server": {
+      "version": 83,
+      "production_version": 77,
+      "production_tag": "v1.1.497"
+    },
+    "hub.docker.local:5000/mobility-suite/identity-directory-api": {
+      "version": 258,
+      "production_version": 255,
+      "production_tag": "v1.1.497"
+    },
+    "hub.docker.local:5000/mobility-suite/identity-api": {
+      "version": 622,
+      "production_version": 608,
+      "production_tag": "v1.1.497"
+    },
+    "hub.docker.local:5000/mobility-suite/identity-notification-api": {
+      "version": 142,
+      "production_version": 135,
+      "production_tag": "v1.1.484"
+    },
+    "hub.docker.local:5000/mobility-suite/pusher-auth-api": {
+      "version": 25,
+      "production_version": 23,
+      "production_tag": "v1.1.470"
+    },
+    "hub.docker.local:5000/mobility-suite/identity-authen-api": {
+      "version": 401,
+      "production_version": 396,
+      "production_tag": "v1.1.497"
+    },
+    "hub.docker.local:5000/mobility-suite/sdp-dns-server": {
+      "version": 214,
+      "production_version": 210,
+      "production_tag": "v1.1.494"
+    },
+    "hub.docker.local:5000/mobility-suite/sdp-api": {
+      "version": 442,
+      "production_version": 439,
+      "production_tag": "v1.1.506"
+    },
+    "hub.docker.local:5000/mobility-suite/sdp-controller-server": {
+      "version": 272,
+      "production_version": 268,
+      "production_tag": "v1.1.506"
+    },
+    "hub.docker.local:5000/mobility-suite/sdp-firewall": {
+      "version": 50,
+      "production_version": 48,
+      "production_tag": "v1.1.450"
+    },
+    "hub.docker.local:5000/mobility-suite/user-portal": {
+      "version": 183,
+      "production_version": 170,
+      "production_tag": "v1.1.470"
+    },
+    "hub.docker.local:5000/mobility-suite/sdp-spa-listener": {
+      "version": 49,
+      "production_version": 47,
+      "production_tag": "v1.1.450"
+    },
+    "hub.docker.local:5000/mobility-suite/sdp-spa-processor": {
+      "version": 88,
+      "production_version": 83,
+      "production_tag": "v1.1.450"
+    },
+    "hub.docker.local:5000/mobility-suite/sdp-gateway-server": {
+      "version": 221,
+      "production_version": 219,
+      "production_tag": "v1.1.506"
+    },
+    "hub.docker.local:5000/mobility-suite/sdp-gateway-http-proxy-server": {
+      "version": 124,
+      "production_version": 121,
+      "production_tag": "v1.1.492"
+    },
+    "hub.docker.local:5000/mobility-suite/user-behavior-api": {
+      "version": 45,
+      "production_version": 40,
+      "production_tag": "v1.1.470"
+    },
+    "hub.docker.local:5000/mobility-suite/update-api": {
+      "version": 97,
+      "production_version": 90,
+      "production_tag": "v1.1.450"
+    },
+    "hub.docker.local:5000/mobility-suite/common.alpine.socat": {
+      "version": "latest",
+      "production_version": "latest"
+    },
+    "hub.docker.local:5000/mobility-suite/common.minio.minio": {
+      "version": "RELEASE.2020-11-19T23-48-16Z",
+      "production_version": "RELEASE.2020-11-19T23-48-16Z"
+    },
+    "hub.docker.local:5000/mobility-suite/common.mongo": {
+      "version": "4.4.1-bionic",
+      "production_version": "4.4.1-bionic"
+    },
+    "hub.docker.local:5000/mobility-suite/common.mongo-express": {
+      "version": "0.54",
+      "production_version": "0.54"
+    },
+    "hub.docker.local:5000/mobility-suite/common.rabbitmq": {
+      "version": "3.7.5-management",
+      "production_version": "3.7.5-management"
+    },
+    "hub.docker.local:5000/mobility-suite/common.bitnami.redis": {
+      "version": "6.0-debian-10",
+      "production_version": "6.0-debian-10"
+    },
+    "hub.docker.local:5000/mobility-suite/common.rediscommander.redis-commander": {
+      "version": "latest",
+      "production_version": "latest"
+    },
+    "hub.docker.local:5000/mobility-suite/common.traefik": {
+      "version": "2.4",
+      "production_version": "2.4"
+    },
+    "hub.docker.local:5000/mobility-suite/common.registry": {
+      "version": "2",
+      "production_version": "2"
+    },
+    "hub.docker.local:5000/mobility-suite/common.docker.elastic.co.elasticsearch.elasticsearch": {
+      "version": "7.16.2",
+      "production_version": "7.16.2"
+    },
+    "hub.docker.local:5000/mobility-suite/common.httpd": {
+      "version": "2.4",
+      "production_version": "2.4"
+    },
+    "hub.docker.local:5000/mobility-suite/admin-api": {
+      "version": 123,
+      "production_version": 115,
+      "production_tag": "v1.1.484"
+    },
+    "hub.docker.local:5000/mobility-suite/integration-kian": {
+      "version": 53,
+      "production_version": 51,
+      "production_tag": "v1.1.450"
+    },
+    "hub.docker.local:5000/mobility-suite/common.bitnami.elasticsearch": {
+      "version": "7.16.2-debian-10-r0",
+      "production_version": "7.16.2-debian-10-r0"
+    },
+    "hub.docker.local:5000/mobility-suite/common.bitnami.mongodb": {
+      "version": "4.4-debian-10",
+      "production_version": "4.4-debian-10"
+    },
+    "hub.docker.local:5000/mobility-suite/common.bitnami.rabbitmq": {
+      "version": "3.8-debian-10",
+      "production_version": "3.8-debian-10"
+    },
+    "hub.docker.local:5000/mobility-suite/common.bitnami.redis-sentinel": {
+      "version": "6.0-debian-10",
+      "production_version": "6.0-debian-10"
+    },
+    "hub.docker.local:5000/mobility-suite/common.minio.mc": {
+      "version": "RELEASE.2020-11-17T00-39-14Z",
+      "production_version": "RELEASE.2020-11-17T00-39-14Z"
+    },
+    "hub.docker.local:5000/mobility-suite/vault-helper": {
+      "version": 43,
+      "production_version": 36,
+      "production_tag": "v1.1.450"
+    },
+    "hub.docker.local:5000/mobility-suite/resource-api": {
+      "version": 81,
+      "production_version": 78,
+      "production_tag": "v1.1.484"
+    },
+    "hub.docker.local:5000/mobility-suite/vault": {
+      "version": 50,
+      "production_version": 46,
+      "production_tag": "v1.1.470"
+    },
+    "hub.docker.local:5000/mobility-suite/ssh-proxy-server": {
+      "version": 58,
+      "production_version": 46,
+      "production_tag": "v1.1.450"
+    },
+    "hub.docker.local:5000/mobility-suite/common.onpremise-license-server": {
+      "version": "latest",
+      "production_version": "latest",
+      "production_tag": "v1.1.4"
+    },
+    "hub.docker.local:5000/mobility-suite/license-api": {
+      "version": 71,
+      "production_version": 69,
+      "production_tag": "v1.1.471"
+    },
+    "hub.docker.local:5000/mobility-suite/customer-api": {
+      "version": 118,
+      "production_version": 106,
+      "production_tag": "v1.1.484"
+    },
+    "hub.docker.local:5000/mobility-suite/assign-request-api": {
+      "version": 55,
+      "production_version": 50,
+      "production_tag": "v1.1.484"
+    },
+    "hub.docker.local:5000/mobility-suite/report-api": {
+      "version": 210,
+      "production_version": 200,
+      "production_tag": "v1.1.494"
+    },
+    "hub.docker.local:5000/mobility-suite/backup-api": {
+      "version": 78,
+      "production_version": 69,
+      "production_tag": "v1.1.494"
+    },
+    "hub.docker.local:5000/mobility-suite/admin-portal-mars": {
+      "version": 823,
+      "production_version": 801,
+      "production_tag": "v1.1.505"
+    },
+    "hub.docker.local:5000/mobility-suite/customer-portal": {
+      "version": 36,
+      "production_version": 23,
+      "production_tag": "v1.1.483"
+    },
+    "hub.docker.local:5000/mobility-suite/client-setting-api": {
+      "version": 13,
+      "production_version": 7,
+      "production_tag": "v1.1.499"
+    },
+    "hub.docker.local:5000/mobility-suite/feedback-api": {
+      "version": 25
+    }
+  },
+  "services": {
+    "update-api": {
+      "update_versions": {
+        "linux-x64-production": {
+          "os": "linux",
+          "architecture": "x64",
+          "branch": "production",
+          "version": "0.2.1912",
+          "binaries": [
+            "deb",
+            "rpm"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.506"
+        },
+        "windows-386-production": {
+          "os": "windows",
+          "architecture": "386",
+          "branch": "production",
+          "version": "0.2.1912",
+          "binaries": [
+            "msi"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.506"
+        },
+        "mac-x64-production": {
+          "os": "mac",
+          "architecture": "x64",
+          "branch": "production",
+          "version": "0.2.1912",
+          "binaries": [
+            "pkg"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.506"
+        },
+        "android-general-production": {
+          "os": "android",
+          "architecture": "general",
+          "branch": "production",
+          "version": "0.2.327",
+          "binaries": [
+            "apk"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.499"
+        },
+        "ios-general-production": {
+          "os": "ios",
+          "architecture": "general",
+          "branch": "production",
+          "version": "0.1.253",
+          "binaries": [
+            "ipa"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.497"
+        },
+        "android-general-production_msuite.mytel.com.mm": {
+          "os": "android",
+          "architecture": "general",
+          "branch": "production_msuite.mytel.com.mm",
+          "version": "0.2.279",
+          "binaries": [
+            "apk"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.499"
+        },
+        "linux-x64-production_msuite.mytel.com.mm": {
+          "os": "linux",
+          "architecture": "x64",
+          "branch": "production_msuite.mytel.com.mm",
+          "version": "0.2.1800",
+          "binaries": [
+            "deb",
+            "rpm"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.506"
+        },
+        "windows-386-production_msuite.mytel.com.mm": {
+          "os": "windows",
+          "architecture": "386",
+          "branch": "production_msuite.mytel.com.mm",
+          "version": "0.2.1800",
+          "binaries": [
+            "msi"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.506"
+        },
+        "mac-x64-production_msuite.mytel.com.mm": {
+          "os": "mac",
+          "architecture": "x64",
+          "branch": "production_msuite.mytel.com.mm",
+          "version": "0.2.1800",
+          "binaries": [
+            "pkg"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.506"
+        },
+        "ios-general-production_msuite.mytel.com.mm": {
+          "os": "ios",
+          "architecture": "general",
+          "branch": "production_msuite.mytel.com.mm",
+          "version": "0.1.240",
+          "binaries": [
+            "ipa"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.497"
+        },
+        "android-general-production_msuite_mytel.com.mm": {
+          "os": "android",
+          "architecture": "general",
+          "branch": "production_msuite_mytel.com.mm",
+          "version": "0.2.283",
+          "binaries": [
+            "apk"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.499"
+        },
+        "mac-x64-ui_dev": {
+          "os": "mac",
+          "architecture": "x64",
+          "branch": "ui_dev",
+          "version": "0.2.1913333",
+          "binaries": [
+            "pkg"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          }
+        },
+        "windows-386-dev": {
+          "os": "windows",
+          "architecture": "386",
+          "branch": "dev",
+          "version": "1.2.3",
+          "binaries": [
+            "msi"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          }
+        },
+        "linux-x64-ui_dev": {
+          "os": "linux",
+          "architecture": "x64",
+          "branch": "ui_dev",
+          "version": "0.2.1913333",
+          "binaries": [
+            "deb",
+            "rpm"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          }
+        },
+        "windows-386-ui_dev": {
+          "os": "windows",
+          "architecture": "386",
+          "branch": "ui_dev",
+          "version": "0.2.1646",
+          "binaries": [
+            "msi"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          }
+        },
+        "linux-x64-dev": {
+          "os": "linux",
+          "architecture": "x64",
+          "branch": "dev",
+          "version": "8.8.8",
+          "binaries": [
+            "deb",
+            "rpm"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          }
+        },
+        "mac-x64-dev": {
+          "os": "mac",
+          "architecture": "x64",
+          "branch": "dev",
+          "version": "8.8.8",
+          "binaries": [
+            "pkg"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          }
+        },
+        "windows-386-debug": {
+          "os": "windows",
+          "architecture": "386",
+          "branch": "debug",
+          "version": "0.2.1772",
+          "binaries": [
+            "msi"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          }
+        },
+        "windows-386-network_manager_dev": {
+          "os": "windows",
+          "architecture": "386",
+          "branch": "network_manager_dev",
+          "version": "0.2.1824",
+          "binaries": [
+            "msi"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          }
+        }
+      },
+      "production_update_versions": {
+        "android-general-production": {
+          "os": "android",
+          "architecture": "general",
+          "branch": "production",
+          "version": "0.2.327",
+          "binaries": [
+            "apk"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.499"
+        },
+        "windows-386-production": {
+          "os": "windows",
+          "architecture": "386",
+          "branch": "production",
+          "version": "0.2.1861",
+          "binaries": [
+            "msi"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.506"
+        },
+        "linux-x64-production": {
+          "os": "linux",
+          "architecture": "x64",
+          "branch": "production",
+          "version": "0.2.1861",
+          "binaries": [
+            "deb",
+            "rpm"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.506"
+        },
+        "mac-x64-production": {
+          "os": "mac",
+          "architecture": "x64",
+          "branch": "production",
+          "version": "0.2.1861",
+          "binaries": [
+            "pkg"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.506"
+        },
+        "ios-general-production": {
+          "os": "ios",
+          "architecture": "general",
+          "branch": "production",
+          "version": "0.1.249",
+          "binaries": [
+            "ipa"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.497"
+        },
+        "android-general-production_msuite.mytel.com.mm": {
+          "os": "android",
+          "architecture": "general",
+          "branch": "production_msuite.mytel.com.mm",
+          "version": "0.2.279",
+          "binaries": [
+            "apk"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.499"
+        },
+        "windows-386-production_msuite.mytel.com.mm": {
+          "os": "windows",
+          "architecture": "386",
+          "branch": "production_msuite.mytel.com.mm",
+          "version": "0.2.1800",
+          "binaries": [
+            "msi"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.506"
+        },
+        "linux-x64-production_msuite.mytel.com.mm": {
+          "os": "linux",
+          "architecture": "x64",
+          "branch": "production_msuite.mytel.com.mm",
+          "version": "0.2.1800",
+          "binaries": [
+            "deb",
+            "rpm"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.506"
+        },
+        "mac-x64-production_msuite.mytel.com.mm": {
+          "os": "mac",
+          "architecture": "x64",
+          "branch": "production_msuite.mytel.com.mm",
+          "version": "0.2.1800",
+          "binaries": [
+            "pkg"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.506"
+        },
+        "ios-general-production_msuite.mytel.com.mm": {
+          "os": "ios",
+          "architecture": "general",
+          "branch": "production_msuite.mytel.com.mm",
+          "version": "0.1.240",
+          "binaries": [
+            "ipa"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.497"
+        },
+        "android-general-production_msuite_mytel.com.mm": {
+          "os": "android",
+          "architecture": "general",
+          "branch": "production_msuite_mytel.com.mm",
+          "version": "0.2.283",
+          "binaries": [
+            "apk"
+          ],
+          "force_update": false,
+          "meta": {
+            "backend_server_name": ""
+          },
+          "production_tag": "v1.1.499"
+        }
+      }
+    }
+  },
+  "template": {
+    "version": 940,
+    "production_version": 905,
+    "production_tag": "v1.1.507"
+  },
+  "template-gateway": {
+    "version": 119,
+    "production_version": 117,
+    "production_tag": "v1.1.487"
+  },
+  "web-based-installer": {
+    "version": 104,
+    "production_version": 94,
+    "production_tag": "v1.1.505"
+  },
+  "ova-template": {
+    "version": 20,
+    "production_version": 18,
+    "production_tag": "v1.1.507"
+  },
+  "release": {
+    "version": "2.0.6"
+  },
+  "release-gateway": {
+    "version": "2.0.4"
+  }
+}
